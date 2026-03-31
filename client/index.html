@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Garuda — Unified Criminal Intelligence Platform</title>
+  <meta name="description"
+    content="Garuda: Grid-based Analytics & Real-time Unified Data Architecture — Telangana Police Criminal Intelligence Platform" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+  <div class="app-layout" id="app">
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand" id="brand-home" style="cursor:pointer">
+        <div class="brand-icon"></div>
+        <div class="brand-text">
+          <h1>Garuda</h1>
+          <span>Eagle Force</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Overview</div>
+        <a class="nav-item active" data-page="dashboard" id="nav-dashboard">
+          <i class="fas fa-chart-line"></i> Dashboard
+        </a>
+
+        <div class="nav-section-title" style="margin-top:12px">Case Management</div>
+        <a class="nav-item" data-page="firs" id="nav-firs">
+          <i class="fas fa-file-alt"></i> FIR Management
+          <span class="nav-badge">14.8K</span>
+        </a>
+        <a class="nav-item" data-page="accuseds" id="nav-accuseds">
+          <i class="fas fa-user-lock"></i> Accused Search
+          <span class="nav-badge red">3.2K</span>
+        </a>
+        <a class="nav-item" data-page="profiles" id="nav-profiles">
+          <i class="fas fa-id-badge"></i> Criminal Profiles
+        </a>
+        <a class="nav-item" data-page="chargesheets" id="nav-chargesheets">
+          <i class="fas fa-gavel"></i> Chargesheets
+        </a>
+
+        <div class="nav-section-title" style="margin-top:12px">Intelligence</div>
+        <a class="nav-item" data-page="Garuda-ai" id="nav-Garuda-ai">
+          <i class="fas fa-robot"></i> Garuda
+          <span class="nav-badge purple">LLM</span>
+        </a>
+        <a class="nav-item" data-page="interrogations" id="nav-interrogations">
+          <i class="fas fa-comments"></i> Interrogation Reports
+        </a>
+        <a class="nav-item" data-page="seizures" id="nav-seizures">
+          <i class="fas fa-pills"></i> Drug Seizures
+          <span class="nav-badge amber">₹487Cr</span>
+        </a>
+
+        <div class="nav-section-title" style="margin-top:12px">System</div>
+        <a class="nav-item" data-page="integrations" id="nav-integrations">
+          <i class="fas fa-plug"></i> Database Integrations
+          <span class="nav-badge green">10/14</span>
+        </a>
+        <a class="nav-item" data-page="networks" id="nav-networks">
+          <i class="fas fa-project-diagram"></i> Network Intelligence
+          <span class="nav-badge red">NEW</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-info">
+          <div class="user-avatar">DK</div>
+          <div class="user-details">
+            <div class="name">DCP D. Kumar</div>
+            <div class="role">SMIT • Hyderabad City</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <header class="top-header">
+        <div class="header-left">
+          <button class="header-btn" id="btn-sidebar-toggle" title="Toggle Sidebar"
+            style="display:none; margin-right:12px;">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h2 class="page-title" id="page-title">Dashboard</h2>
+        </div>
+        <div class="header-right">
+          <div class="live-indicator">
+            <span class="live-dot"></span>
+            LIVE
+          </div>
+          <div class="header-search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search cases, persons, FIR..." id="global-search" />
+          </div>
+          <button class="header-btn" id="btn-theme-toggle" title="Toggle Theme">
+            <i class="fas fa-sun" id="theme-icon"></i>
+          </button>
+          <button class="header-btn" id="btn-alerts" title="Alerts">
+            <i class="fas fa-bell"></i>
+            <span class="badge">5</span>
+          </button>
+          <button class="header-btn" title="Settings">
+            <i class="fas fa-cog"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="page-content" id="page-content">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <h3 id="modal-title">Detail</h3>
+        <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/mockData.js"></script>
+  <script src="/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+{
+  "stats": {
+    "totalFIRs": 14827,
+    "totalAccused": 21453,
+    "totalArrested": 8742,
+    "totalAbsconding": 3216,
+    "totalSeizureValueCrores": 487.3,
+    "pendingChargesheets": 1842,
+    "activeWarrants": 567,
+    "convictionRate": 68.4,
+    "activeCases": 4231,
+    "closedCases": 10596,
+    "criminalProfiles": 3492,
+    "caseClearance": 89.2,
+    "activeAlerts": 247,
+    "dbIntegrations": 14,
+    "dbConnected": 10,
+    "dbPending": 4,
+    "cdrRecords": 89456,
+    "mostWanted": 38
+  },
+  "monthlyFIRs": [
+    {"month": "Oct 2025", "count": 1245},
+    {"month": "Nov 2025", "count": 1389},
+    {"month": "Dec 2025", "count": 1102},
+    {"month": "Jan 2026", "count": 1456},
+    {"month": "Feb 2026", "count": 1278},
+    {"month": "Mar 2026", "count": 987}
+  ],
+  "drugSeizures": [
+    {"drug": "Ganja", "quantityKg": 12450, "cases": 4521, "worth": 18.7},
+    {"drug": "MDMA", "quantityKg": 87.5, "cases": 342, "worth": 43.2},
+    {"drug": "Cocaine", "quantityKg": 12.3, "cases": 89, "worth": 124.5},
+    {"drug": "Heroin", "quantityKg": 34.7, "cases": 156, "worth": 189.3},
+    {"drug": "LSD", "quantityKg": 2.1, "cases": 67, "worth": 34.8},
+    {"drug": "Methamphetamine", "quantityKg": 15.8, "cases": 112, "worth": 76.8}
+  ],
+  "districtWise": [
+    {"district": "Hyderabad", "firs": 3421, "accused": 5234, "arrested": 2145, "seizureValue": 156.2, "color": "#ff1744", "severity": "High"},
+    {"district": "Cyberabad", "firs": 2876, "accused": 4123, "arrested": 1876, "seizureValue": 134.8, "color": "#ff6d00", "severity": "High"},
+    {"district": "Rachakonda", "firs": 2345, "accused": 3456, "arrested": 1543, "seizureValue": 98.4, "color": "#ffab00", "severity": "Medium"},
+    {"district": "Warangal", "firs": 1234, "accused": 1876, "arrested": 876, "seizureValue": 42.1, "color": "#00e676", "severity": "Low"},
+    {"district": "Khammam", "firs": 987, "accused": 1432, "arrested": 654, "seizureValue": 31.5, "color": "#1de9b6", "severity": "Low"},
+    {"district": "Nalgonda", "firs": 876, "accused": 1234, "arrested": 543, "seizureValue": 24.3, "color": "#2962ff", "severity": "Low"}
+  ],
+  "recentActivity": [
+    {"type": "FIR_REGISTERED", "text": "5 kg Ganja recovered", "time": "12 min ago", "severity": "high"},
+    {"type": "ACCUSED_ARRESTED", "text": "Wanted criminal Ravi Kumar arrested in Cyberabad", "time": "45 min ago", "severity": "medium"},
+    {"type": "INTEGRATION_SYNC", "text": "New CCTNS integration completed — 12,450 records synced", "time": "2 hrs ago", "severity": "low"},
+    {"type": "FSL_REPORT", "text": "Financial Intelligence alert: Suspicious transaction flagged", "time": "3 hrs ago", "severity": "critical"},
+    {"type": "ABSCONDING_ALERT", "text": "Accused Ravi Kumar absconding — NBW issued, case 45/2026", "time": "4 hrs ago", "severity": "critical"},
+    {"type": "INTEGRATION_SYNC", "text": "CCTNS sync completed — 234 new records ingested", "time": "5 hrs ago", "severity": "low"},
+    {"type": "UNOCROSS_DRAFT", "text": "Unocross bank request auto-drafted for SBI account linked to case 112/2026", "time": "6 hrs ago", "severity": "medium"},
+    {"type": "CONFLICT_ALERT", "text": "Conflict alert: 3 officers querying same crime number CR-HYD-2026-4521", "time": "7 hrs ago", "severity": "warning"}
+  ],
+  "accusedByStatus": {
+    "Arrested": 8742,
+    "Absconding": 3216,
+    "Issued Notice": 4521,
+    "Surrendered": 1243,
+    "Unknown": 3731
+  },
+  "topWanted": [
+    {"name": "Mohammed Rafiq Khan", "alias": "Rafiq Bhai", "district": "Hyderabad", "cases": 12, "reward": "₹5L", "badges": ["Drug Kingpin", "Interstate"], "personId": "PER-HYD-00142"},
+    {"name": "Suresh Reddy", "alias": "SR", "district": "Cyberabad", "cases": 8, "reward": "₹3L", "badges": ["Murder", "Armed"], "personId": "PER-CYB-00456"},
+    {"name": "Vikram Singh", "alias": "Vicky", "district": "Rachakonda", "cases": 6, "reward": "₹2L", "badges": ["Robbery"], "personId": "PER-RCK-00567"},
+    {"name": "Abdul Wahab", "alias": "Wahab", "district": "Warangal", "cases": 9, "reward": "₹2.5L", "badges": ["Trafficking", "Network"], "personId": "PER-WGL-00123"}
+  ],
+  "recentSeizuresHighlight": [
+    {"type": "Ganja", "icon": "🌿", "quantity": "45 kg", "value": "₹13.5L", "location": "Secunderabad", "date": "Today, 11:30 AM", "status": "In Progress"},
+    {"type": "Vehicle", "icon": "🚗", "quantity": "3 units", "value": "₹65L", "location": "Cyberabad", "date": "Yesterday", "status": "Processed"},
+    {"type": "Jewellery", "icon": "💍", "quantity": "2.6 kg", "value": "₹1.2Cr", "location": "Banjara Hills", "date": "Mar 22", "status": "Processed"},
+    {"type": "Narcotics", "icon": "💊", "quantity": "850 tabs", "value": "₹8.5L", "location": "Warangal", "date": "Mar 20", "status": "Processed"}
+  ]
+}

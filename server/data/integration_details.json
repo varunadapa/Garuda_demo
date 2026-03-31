@@ -1,0 +1,673 @@
+{
+  "1": {
+    "system": "CCTNS",
+    "description": "Crime and Criminal Tracking Network & Systems — National crime database maintained by NCRB/MHA. Provides FIR data, accused info, and case status across all states.",
+    "columns": [
+      "FIR Number",
+      "Date",
+      "Section",
+      "Police Station",
+      "District",
+      "Status"
+    ],
+    "records": [
+      [
+        "142/2026",
+        "20 Mar 2026",
+        "8(c), 20, 22, 29 NDPS Act",
+        "Banjara Hills",
+        "Hyderabad",
+        "Under Investigation"
+      ],
+      [
+        "98/2026",
+        "15 Feb 2026",
+        "8(c), 21, 27A NDPS Act",
+        "Jubilee Hills",
+        "Hyderabad",
+        "Chargesheet Filed"
+      ],
+      [
+        "234/2026",
+        "10 Mar 2026",
+        "8(c), 20, 25 NDPS Act",
+        "Madhapur",
+        "Cyberabad",
+        "Under Investigation"
+      ],
+      [
+        "67/2026",
+        "22 Jan 2026",
+        "8(c), 20, 22 NDPS Act",
+        "Hayathnagar",
+        "Rachakonda",
+        "Under Trial"
+      ],
+      [
+        "2341/2025",
+        "20 Dec 2025",
+        "379, 392 IPC",
+        "Kukatpally",
+        "Cyberabad",
+        "Chargesheet Filed"
+      ],
+      [
+        "1456/2025",
+        "30 Aug 2025",
+        "8(c) NDPS + 420 IPC",
+        "Jubilee Hills",
+        "Hyderabad",
+        "Under Trial"
+      ],
+      [
+        "876/2025",
+        "12 Jul 2025",
+        "20, 22 NDPS Act",
+        "Toli Chowki",
+        "Hyderabad",
+        "Convicted"
+      ]
+    ]
+  },
+  "2": {
+    "system": "Garuda",
+    "description": "Drug Offenders Profiling, Analysis and Monitoring System — Telangana Police's dedicated drug offender database with 360° profiling and interrogation reports.",
+    "columns": [
+      "Person ID",
+      "Name",
+      "Alias",
+      "Drug Type",
+      "Cases",
+      "Status"
+    ],
+    "records": [
+      [
+        "PER-HYD-00142",
+        "Mohammed Sharif",
+        "Sharfu",
+        "GANJA, MDMA",
+        "4",
+        "Arrested"
+      ],
+      [
+        "PER-HYD-00234",
+        "Sameer Khan",
+        "Party King",
+        "MDMA, COCAINE, LSD",
+        "6",
+        "Arrested"
+      ],
+      [
+        "PER-HYD-00345",
+        "Ravi Kumar",
+        "Ravi",
+        "GANJA",
+        "2",
+        "Arrested"
+      ],
+      [
+        "PER-CYB-00456",
+        "Anil Deshmukh",
+        "Anil Bhai",
+        "HEROIN, MDMA",
+        "3",
+        "Arrested"
+      ],
+      [
+        "PER-RCK-00567",
+        "Lakshman Rao",
+        "Laxman Anna",
+        "GANJA",
+        "8",
+        "Absconding"
+      ],
+      [
+        "PER-HYD-00678",
+        "Venkat Reddy",
+        "—",
+        "GANJA",
+        "1",
+        "Absconding"
+      ],
+      [
+        "PER-HYD-00789",
+        "Rajendra Prasad",
+        "Raju",
+        "—",
+        "2",
+        "Arrested"
+      ]
+    ]
+  },
+  "3": {
+    "system": "ICJS",
+    "description": "Inter-operable Criminal Justice System — National platform linking Crime → Investigation → Prosecution → Courts → Prison for seamless case tracking.",
+    "columns": [
+      "Case Number",
+      "Court",
+      "Accused",
+      "Section",
+      "Next Hearing",
+      "Status"
+    ],
+    "records": [
+      [
+        "CC 234/2026",
+        "Metropolitan Magistrate, Nampally",
+        "Anil Deshmukh",
+        "8(c) NDPS",
+        "15 Apr 2026",
+        "Trial"
+      ],
+      [
+        "CC 876/2025",
+        "Sessions Court, Hyderabad",
+        "Mohammed Sharif",
+        "20 NDPS",
+        "22 Mar 2026",
+        "Arguments"
+      ],
+      [
+        "CC 1234/2025",
+        "NDPS Special Court, Hyderabad",
+        "Sameer Khan",
+        "21, 27A NDPS",
+        "05 Apr 2026",
+        "Trial"
+      ],
+      [
+        "CC 456/2024",
+        "Dist. Court, Rachakonda",
+        "Lakshman Rao",
+        "8(c), 20, 22 NDPS",
+        "10 May 2026",
+        "Evidence"
+      ],
+      [
+        "CC 789/2024",
+        "Sessions Court, Cyberabad",
+        "Rajendra Prasad",
+        "379, 392 IPC",
+        "28 Mar 2026",
+        "Judgment Reserved"
+      ]
+    ]
+  },
+  "4": {
+    "system": "RTA Database",
+    "description": "Regional Transport Authority — Vehicle ownership and registration data. Used to trace vehicles owned by or linked to accused persons.",
+    "columns": [
+      "Reg. Number",
+      "Owner",
+      "Vehicle",
+      "Chassis No.",
+      "Insurance Valid",
+      "Linked FIR"
+    ],
+    "records": [
+      [
+        "TS 09 HZ 4521",
+        "Mohammed Sharif",
+        "Bajaj Auto RE",
+        "MD2AAAZZZ7N14521",
+        "Yes (2027)",
+        "142/2026"
+      ],
+      [
+        "TS 07 EF 8876",
+        "Sameer Khan",
+        "BMW X5 xDrive",
+        "WBAJB0C55JB48876",
+        "Yes (2026)",
+        "98/2026"
+      ],
+      [
+        "AP 28 AZ 1234",
+        "Lakshman Rao",
+        "Toyota Innova",
+        "MBJNXXMRXJZ01234",
+        "No (Expired)",
+        "67/2026"
+      ],
+      [
+        "TS 08 GH 5567",
+        "Anil Deshmukh",
+        "Mercedes GLE",
+        "WDC0G4KB5JF05567",
+        "Yes (2027)",
+        "234/2026"
+      ],
+      [
+        "TS 09 JK 3345",
+        "Ravi Kumar",
+        "TVS Apache 200",
+        "MD634KKAA7B03345",
+        "No (Expired)",
+        "142/2026"
+      ],
+      [
+        "AP 07 CD 9900",
+        "Lakshman Rao",
+        "Isuzu D-Max",
+        "MP1TFS86JMT09900",
+        "Yes (2026)",
+        "456/2025"
+      ]
+    ]
+  },
+  "5": {
+    "system": "VAHAN / SARATHI",
+    "description": "National vehicle registration (VAHAN) and driving license (SARATHI) databases maintained by NIC under MoRTH.",
+    "columns": [
+      "DL Number",
+      "Name",
+      "Valid Till",
+      "Vehicle Class",
+      "Issued State",
+      "Status"
+    ],
+    "records": [
+      [
+        "TS07 2018 0004521",
+        "Mohammed Sharif",
+        "14 May 2038",
+        "MCWG, LMV",
+        "Telangana",
+        "Active"
+      ],
+      [
+        "TS07 2020 0008876",
+        "Sameer Khan",
+        "22 Jan 2040",
+        "MCWG, LMV, HMV",
+        "Telangana",
+        "Active"
+      ],
+      [
+        "AP28 2015 0001234",
+        "Lakshman Rao",
+        "04 Jul 2025",
+        "LMV, HGV, TRANS",
+        "Andhra Pradesh",
+        "Expired"
+      ],
+      [
+        "MH14 2019 0009876",
+        "Anil Deshmukh",
+        "18 Mar 2039",
+        "MCWG, LMV",
+        "Maharashtra",
+        "Active"
+      ],
+      [
+        "TS09 2022 0003345",
+        "Ravi Kumar",
+        "10 Aug 2042",
+        "MCWG",
+        "Telangana",
+        "Active"
+      ]
+    ]
+  },
+  "6": {
+    "system": "C-DATA (CDR/IPDR)",
+    "description": "Call Detail Records and Internet Protocol Detail Records obtained from telecom operators. Critical for communication pattern analysis and tower location mapping.",
+    "columns": [
+      "Caller",
+      "Called Number",
+      "Duration",
+      "Tower Location",
+      "Date & Time",
+      "Type"
+    ],
+    "records": [
+      [
+        "9876543210",
+        "9988776655",
+        "4m 32s",
+        "Banjara Hills Tower-3",
+        "23 Mar 2026 14:23",
+        "Outgoing"
+      ],
+      [
+        "9988776655",
+        "9876543210",
+        "2m 18s",
+        "Jubilee Hills Tower-1",
+        "23 Mar 2026 11:45",
+        "Incoming"
+      ],
+      [
+        "9876543210",
+        "8877665544",
+        "6m 45s",
+        "Toli Chowki Tower-2",
+        "22 Mar 2026 22:10",
+        "Outgoing"
+      ],
+      [
+        "9000112233",
+        "9876543210",
+        "1m 05s",
+        "Hayathnagar Tower-1",
+        "22 Mar 2026 19:30",
+        "Incoming"
+      ],
+      [
+        "9876543210",
+        "7766554433",
+        "12m 22s",
+        "Golconda Tower-1",
+        "22 Mar 2026 16:15",
+        "Outgoing"
+      ],
+      [
+        "9112233445",
+        "9988776655",
+        "3m 40s",
+        "Kondapur Tower-4",
+        "21 Mar 2026 20:55",
+        "Outgoing"
+      ],
+      [
+        "9876543210",
+        "9000112233",
+        "8m 15s",
+        "Banjara Hills Tower-1",
+        "21 Mar 2026 08:20",
+        "Outgoing"
+      ]
+    ]
+  },
+  "7": {
+    "system": "H-TRAX (LBS)",
+    "description": "Location-Based Services tracking via IMEI/IMSI mapping. Provides real-time and historical geo-location data of mobile devices linked to suspects.",
+    "columns": [
+      "IMEI",
+      "Latitude",
+      "Longitude",
+      "Timestamp",
+      "Cell Tower ID",
+      "Accuracy"
+    ],
+    "records": [
+      [
+        "353456789012345",
+        "17.4123",
+        "78.4567",
+        "23 Mar 2026 14:23:45",
+        "TS-HYD-BJH-003",
+        "15m"
+      ],
+      [
+        "353456789012345",
+        "17.4156",
+        "78.4589",
+        "23 Mar 2026 12:10:22",
+        "TS-HYD-BJH-001",
+        "22m"
+      ],
+      [
+        "864512098765432",
+        "17.4401",
+        "78.3987",
+        "23 Mar 2026 11:45:33",
+        "TS-HYD-JBH-001",
+        "18m"
+      ],
+      [
+        "352198765432101",
+        "17.3234",
+        "78.5012",
+        "22 Mar 2026 22:10:11",
+        "TS-RCK-HNR-001",
+        "35m"
+      ],
+      [
+        "353456789012345",
+        "17.4089",
+        "78.4612",
+        "22 Mar 2026 19:30:55",
+        "TS-HYD-TCK-002",
+        "12m"
+      ],
+      [
+        "864512098765432",
+        "17.4478",
+        "78.3821",
+        "22 Mar 2026 16:15:40",
+        "TS-CYB-KDP-004",
+        "20m"
+      ]
+    ]
+  },
+  "8": {
+    "system": "Unocross / Bank Data",
+    "description": "Financial intelligence from RBI-regulated banks. Tracks suspicious transactions, fund flows, and account ownership linked to drug offenders.",
+    "columns": [
+      "Account",
+      "Bank",
+      "Holder",
+      "Transaction",
+      "Amount",
+      "Date"
+    ],
+    "records": [
+      [
+        "XXXX4521",
+        "SBI, Banjara Hills",
+        "Mohammed Sharif",
+        "Cash Deposit",
+        "₹4,50,000",
+        "19 Mar 2026"
+      ],
+      [
+        "XXXX8876",
+        "HDFC, Jubilee Hills",
+        "Sameer Khan",
+        "NEFT Received",
+        "₹12,30,000",
+        "14 Mar 2026"
+      ],
+      [
+        "XXXX1234",
+        "Indian Bank, Hayathnagar",
+        "Lakshman Rao",
+        "Cash Withdrawal",
+        "₹8,00,000",
+        "17 Mar 2026"
+      ],
+      [
+        "XXXX9876",
+        "Axis Bank, Kondapur",
+        "Anil Deshmukh",
+        "UPI Transfer Out",
+        "₹2,75,000",
+        "10 Mar 2026"
+      ],
+      [
+        "XXXX5567",
+        "BOB, Toli Chowki",
+        "Ravi Kumar",
+        "Cash Deposit",
+        "₹1,20,000",
+        "15 Mar 2026"
+      ],
+      [
+        "XXXX8876",
+        "HDFC, Jubilee Hills",
+        "Sameer Khan",
+        "UPI Transfer In",
+        "₹5,60,000",
+        "08 Mar 2026"
+      ]
+    ]
+  },
+  "9": {
+    "system": "ePetty Cases",
+    "description": "Petty offence tracking system used by Telangana Police for minor offences, preventive actions, and history sheet entries.",
+    "columns": [
+      "Case No.",
+      "Offence Type",
+      "Person",
+      "Fine",
+      "PS",
+      "Date"
+    ],
+    "records": [
+      [
+        "EP-HYD-2026-0456",
+        "Drunk & Disorderly",
+        "Ravi Kumar",
+        "₹2,000",
+        "Kukatpally",
+        "12 Mar 2026"
+      ],
+      [
+        "EP-HYD-2026-0321",
+        "Suspicious Loitering",
+        "Mohammed Sharif",
+        "Warning",
+        "Toli Chowki",
+        "08 Mar 2026"
+      ],
+      [
+        "EP-CYB-2026-0187",
+        "Traffic Violation",
+        "Anil Deshmukh",
+        "₹5,000",
+        "Madhapur",
+        "01 Mar 2026"
+      ],
+      [
+        "EP-HYD-2025-1234",
+        "Public Nuisance",
+        "Venkat Reddy",
+        "₹1,000",
+        "Banjara Hills",
+        "20 Dec 2025"
+      ],
+      [
+        "EP-RCK-2025-0987",
+        "Preventive Entry 110 CrPC",
+        "Lakshman Rao",
+        "Detained 24h",
+        "Hayathnagar",
+        "15 Nov 2025"
+      ]
+    ]
+  },
+  "10": {
+    "system": "SHE Teams Data",
+    "description": "Telangana SHE Teams data — gender-based safety enforcement, harassment complaints, and connected offender profiles.",
+    "columns": [
+      "Complaint No.",
+      "Type",
+      "Accused",
+      "Location",
+      "Action",
+      "Date"
+    ],
+    "records": [
+      [
+        "SHE-HYD-2026-0089",
+        "Eve Teasing",
+        "Venkat Reddy",
+        "Tank Bund",
+        "Counseled & Warning",
+        "10 Mar 2026"
+      ],
+      [
+        "SHE-HYD-2026-0045",
+        "Stalking",
+        "Unknown Male",
+        "Jubilee Hills",
+        "FIR Registered",
+        "25 Feb 2026"
+      ],
+      [
+        "SHE-CYB-2026-0023",
+        "Online Harassment",
+        "Rajendra Prasad",
+        "Gachibowli",
+        "Booked u/s 354D IPC",
+        "14 Feb 2026"
+      ],
+      [
+        "SHE-HYD-2025-0567",
+        "Harassment",
+        "Sameer Khan",
+        "Banjara Hills",
+        "Counseled",
+        "30 Nov 2025"
+      ]
+    ]
+  },
+  "11": {
+    "system": "NIDHAN",
+    "description": "National Integrated Database on Arrested Narco-offenders — MHA managed national drug offender database currently under integration.",
+    "columns": [],
+    "records": [],
+    "pendingMessage": "NIDHAN integration is currently pending. API access has been requested from MHA. Expected go-live: Q2 2026."
+  },
+  "12": {
+    "system": "Prison / Parole Records",
+    "description": "Telangana Prisons Department data — inmate records, conviction details, parole status, and release dates for incarcerated offenders.",
+    "columns": [
+      "Prisoner ID",
+      "Name",
+      "Conviction",
+      "Jail",
+      "Sentence",
+      "Parole Status"
+    ],
+    "records": [
+      [
+        "CH-HYD-2024-0123",
+        "Mohammed Sharif",
+        "NDPS 20 (Ganja 5Kg)",
+        "Chanchalguda Central Jail",
+        "3 Years RI",
+        "Parole Granted (Apr 2025)"
+      ],
+      [
+        "CH-WGL-2023-0456",
+        "Rajendra Prasad",
+        "IPC 379, 392",
+        "Warangal District Jail",
+        "2 Years RI",
+        "Released on Bail"
+      ],
+      [
+        "CH-HYD-2023-0789",
+        "Sameer Khan",
+        "NDPS 21 (MDMA 200g)",
+        "Chanchalguda Central Jail",
+        "5 Years RI",
+        "Not Eligible"
+      ],
+      [
+        "CH-RCK-2022-0234",
+        "Lakshman Rao",
+        "NDPS 20, 22 (Ganja 450Kg)",
+        "Cherlapally Central Jail",
+        "10 Years RI",
+        "Application Pending"
+      ]
+    ]
+  },
+  "13": {
+    "system": "FCI Records",
+    "description": "Food Corporation of India ration card and subsidy data — used to verify identity and track address/location of suspects via PDS beneficiary records.",
+    "columns": [],
+    "records": [],
+    "pendingMessage": "FCI records integration is pending. SFTP access provisioning is in progress. Expected go-live: Q3 2026."
+  },
+  "14": {
+    "system": "LPG Connections",
+    "description": "Oil company (IOCL, BPCL, HPCL) LPG connection database — used to verify residential address and identity of suspects through gas connection records.",
+    "columns": [],
+    "records": [],
+    "pendingMessage": "LPG data integration is pending. API specifications being finalized with oil companies. Expected go-live: Q3 2026."
+  }
+}

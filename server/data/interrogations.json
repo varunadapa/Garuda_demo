@@ -1,0 +1,67 @@
+[
+  {
+    "interrogation_report_id": "IR-HYD-2026-001",
+    "crime_id": "CR-HYD-2026-0142",
+    "person_id": "PER-HYD-00142",
+    "person_name": "Mohammed Sharif",
+    "fir_num": "142/2026",
+    "ps_name": "Banjara Hills",
+    "physical": {"beard": "Short Beard", "build": "Medium", "color": "Wheatish", "eyes": "Brown", "face": "Oval", "hair": "Black, Curly", "height": "5'8\"", "identificationMarks": "Eagle tattoo on left forearm, mole on right cheek"},
+    "socio": {"livingStatus": "Rented", "maritalStatus": "Married", "education": "10th Pass", "occupation": "Auto Driver", "incomeGroup": "Below ₹15,000/month"},
+    "family_history": [
+      {"name": "Mohammed Hussain", "relation": "Father", "criminalBackground": false, "isAlive": true},
+      {"name": "Fatima Begum", "relation": "Mother", "criminalBackground": false, "isAlive": true},
+      {"name": "Ahmed Sharif", "relation": "Brother", "criminalBackground": true, "isAlive": true}
+    ],
+    "associates": [
+      {"name": "Ravi Kumar", "gang": "Vizag-Hyd Ganja Network", "relation": "Co-accused / Driver"},
+      {"name": "Venkat Reddy", "gang": "Vizag-Hyd Ganja Network", "relation": "Supplier"}
+    ],
+    "modus_operandi": [{"crimeHead": "NDPS", "crimeSubHead": "Ganja Trafficking", "modusOperandi": "Procures from rural AP/Vizag, transports in modified vehicle compartments, distributes in Hyderabad via auto-rickshaw network"}],
+    "drug_details": [{"typeOfDrug": "Ganja", "quantity": "12 Kg", "purchaseAmount": "₹1,20,000", "modeOfPayment": "Cash + UPI", "modeOfTransport": "Modified Innova"}],
+    "financial_history": [{"bankName": "State Bank of India", "accountNumber": "XXXX3421", "branchName": "Toli Chowki", "upiId": "sharif@ybl"}],
+    "sim_details": [{"phoneNumber": "9876543210", "imei": "356XXXXXXXXX", "trueCallerName": "Sharfu Auto"}],
+    "previous_offences": [
+      {"crimeNum": "876/2025", "lawSection": "Sec 20(b) NDPS", "arrestDate": "2025-07-12", "psCode": "PS-HYD-BH"},
+      {"crimeNum": "1234/2024", "lawSection": "Sec 20(b) NDPS", "arrestDate": "2024-09-05", "psCode": "PS-HYD-MK"}
+    ],
+    "date_created": "2026-03-21T10:00:00"
+  },
+  {
+    "interrogation_report_id": "IR-HYD-2026-002",
+    "crime_id": "CR-HYD-2026-0098",
+    "person_id": "PER-HYD-00234",
+    "person_name": "Sameer Khan",
+    "fir_num": "98/2026",
+    "ps_name": "Jubilee Hills",
+    "physical": {"beard": "Clean Shaven", "build": "Athletic", "color": "Fair", "eyes": "Brown", "face": "Round", "hair": "Black, Straight", "height": "5'10\"", "identificationMarks": "Dragon tattoo on right arm, Arabic text tattoo on chest"},
+    "socio": {"livingStatus": "Owned Flat", "maritalStatus": "Unmarried", "education": "Graduate", "occupation": "Event Organizer", "incomeGroup": "Above ₹5,00,000/month"},
+    "family_history": [
+      {"name": "Irfan Khan", "relation": "Father", "criminalBackground": false, "isAlive": true},
+      {"name": "Rehana Khan", "relation": "Mother", "criminalBackground": false, "isAlive": true}
+    ],
+    "associates": [
+      {"name": "David Williams", "gang": "International MDMA Network", "relation": "Foreign supplier"},
+      {"name": "Priya Sharma", "gang": null, "relation": "Consumer / Girlfriend"}
+    ],
+    "modus_operandi": [{"crimeHead": "NDPS", "crimeSubHead": "Synthetic Drug Distribution", "modusOperandi": "Organizes high-profile parties at farmhouses, uses encrypted messaging (Signal/Telegram) for orders, receives drugs via courier parcels from Mumbai"}],
+    "drug_details": [
+      {"typeOfDrug": "MDMA", "quantity": "2500 tablets (500g)", "purchaseAmount": "₹25,00,000", "modeOfPayment": "Cryptocurrency + Hawala", "modeOfTransport": "Courier"},
+      {"typeOfDrug": "Cocaine", "quantity": "100g", "purchaseAmount": "₹10,00,000", "modeOfPayment": "Cryptocurrency", "modeOfTransport": "Personal carry"}
+    ],
+    "financial_history": [
+      {"bankName": "HDFC Bank", "accountNumber": "XXXX8765", "branchName": "Jubilee Hills", "upiId": "sameer.events@hdfcbank"},
+      {"bankName": "Axis Bank", "accountNumber": "XXXX4321", "branchName": "Banjara Hills", "upiId": null}
+    ],
+    "sim_details": [
+      {"phoneNumber": "9988776655", "imei": "867XXXXXXXXX", "trueCallerName": "Sameer Events"},
+      {"phoneNumber": "8899001122", "imei": "912XXXXXXXXX", "trueCallerName": "Spam"}
+    ],
+    "previous_offences": [
+      {"crimeNum": "1456/2025", "lawSection": "Sec 21(b) NDPS", "arrestDate": "2025-08-30", "psCode": "PS-HYD-JH"},
+      {"crimeNum": "234/2025", "lawSection": "Sec 21(a) NDPS", "arrestDate": "2025-02-10", "psCode": "PS-HYD-BH"},
+      {"crimeNum": "2345/2024", "lawSection": "Sec 22 NDPS", "arrestDate": "2024-11-15", "psCode": "PS-CYB-MD"}
+    ],
+    "date_created": "2026-02-16T14:00:00"
+  }
+]

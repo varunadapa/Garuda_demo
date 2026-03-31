@@ -1,0 +1,316 @@
+[
+  {
+    "crime_id": "CR-HYD-2026-0142",
+    "ps_code": "PS-HYD-BH",
+    "ps_name": "Banjara Hills",
+    "dist_name": "Hyderabad",
+    "fir_num": "142/2026",
+    "fir_reg_num": "FIR-2026-BH-142",
+    "fir_type": "NDPS",
+    "fir_date": "2026-03-20T10:30:00",
+    "acts_sections": "Sec 20(b)(ii)(C), 29 NDPS Act, 1985",
+    "case_status": "Under Investigation",
+    "major_head": "NDPS CASES",
+    "minor_head": "Ganja Commercial",
+    "crime_type": "Drug Trafficking",
+    "class_classification": "Commercial Quantity",
+    "io_name": "SI Rajesh Kumar",
+    "io_rank": "Sub Inspector",
+    "brief_facts": "On 20.03.2026, acting on credible intelligence, the SHO along with staff conducted a vehicle check near Jubilee Hills Check Post. During checking of a white Innova bearing TS-09-EF-4521, the team found 12 Kg of Ganja concealed in a specially modified compartment in the boot of the vehicle. The accused Mohammed Sharif and Ravi Kumar were apprehended. Upon interrogation, the accused revealed procuring the contraband from Visakhapatnam and intended to distribute in Hyderabad city.",
+    "no_of_accused": 3,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Mohammed Sharif",
+        "accusedType": "peddler",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A2",
+        "fullName": "Ravi Kumar",
+        "accusedType": "transporter",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A3",
+        "fullName": "Venkat Reddy",
+        "accusedType": "supplier",
+        "status": "Absconding"
+      }
+    ],
+    "drug_details": [
+      {
+        "name": "GANJA",
+        "quantityKg": 12.0,
+        "worth": 240000,
+        "isCommercial": true
+      }
+    ],
+    "chargesheet_status": "Pending",
+    "disposal_details": null
+  },
+  {
+    "crime_id": "CR-HYD-2026-0098",
+    "ps_code": "PS-HYD-JH",
+    "ps_name": "Jubilee Hills",
+    "dist_name": "Hyderabad",
+    "fir_num": "98/2026",
+    "fir_reg_num": "FIR-2026-JH-098",
+    "fir_type": "NDPS",
+    "fir_date": "2026-02-15T14:00:00",
+    "acts_sections": "Sec 21(c), 27A, 29 NDPS Act; Sec 120B IPC",
+    "case_status": "Chargesheet Filed",
+    "major_head": "NDPS CASES",
+    "minor_head": "MDMA Tablets",
+    "crime_type": "Drug Trafficking",
+    "class_classification": "Commercial Quantity",
+    "io_name": "Inspector P. Venkatesh",
+    "io_rank": "Inspector",
+    "brief_facts": "Based on intelligence inputs from Garuda analytics, a raid was conducted at a farmhouse in Film Nagar. 2,500 MDMA tablets (500g) and 100g of cocaine were seized. Three accused including a foreign national were arrested. The investigation revealed an international drug supply chain operating through encrypted messaging apps.",
+    "no_of_accused": 4,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Sameer Khan",
+        "accusedType": "organizer_kingpin",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A2",
+        "fullName": "David Williams",
+        "accusedType": "supplier",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A3",
+        "fullName": "Priya Sharma",
+        "accusedType": "consumer",
+        "status": "Issued Notice"
+      },
+      {
+        "personCode": "A4",
+        "fullName": "Unknown Nigerian National",
+        "accusedType": "supplier",
+        "status": "Absconding"
+      }
+    ],
+    "drug_details": [
+      {
+        "name": "MDMA",
+        "quantityKg": 0.5,
+        "worth": 5000000,
+        "isCommercial": true
+      },
+      {
+        "name": "COCAINE",
+        "quantityKg": 0.1,
+        "worth": 1000000,
+        "isCommercial": true
+      }
+    ],
+    "chargesheet_status": "Filed",
+    "disposal_details": [
+      {
+        "disposalType": "Under Trial",
+        "caseStatus": "Arguments Stage"
+      }
+    ]
+  },
+  {
+    "crime_id": "CR-HYD-2025-1876",
+    "ps_code": "PS-HYD-MK",
+    "ps_name": "Musheerabad",
+    "dist_name": "Hyderabad",
+    "fir_num": "1876/2025",
+    "fir_reg_num": "FIR-2025-MK-1876",
+    "fir_type": "NDPS",
+    "fir_date": "2025-11-05T09:15:00",
+    "acts_sections": "Sec 20(b)(ii)(B) NDPS Act, 1985",
+    "case_status": "Convicted",
+    "major_head": "NDPS CASES",
+    "minor_head": "Ganja Non-Commercial",
+    "crime_type": "Drug Possession",
+    "class_classification": "Non-Commercial Quantity",
+    "io_name": "ASI Srinivas Rao",
+    "io_rank": "Asst Sub Inspector",
+    "brief_facts": "During routine patrol, the accused was found in possession of 2.5 Kg of Ganja near Musheerabad Railway Station. Accused admitted to purchasing from Andhra Pradesh border area for personal consumption and small-scale distribution.",
+    "no_of_accused": 1,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Ramesh Yadav",
+        "accusedType": "consumer",
+        "status": "Arrested"
+      }
+    ],
+    "drug_details": [
+      {
+        "name": "GANJA",
+        "quantityKg": 2.5,
+        "worth": 50000,
+        "isCommercial": false
+      }
+    ],
+    "chargesheet_status": "Filed",
+    "disposal_details": [
+      {
+        "disposalType": "Conviction",
+        "caseStatus": "Convicted — 3 years RI"
+      }
+    ]
+  },
+  {
+    "crime_id": "CR-CYB-2026-0234",
+    "ps_code": "PS-CYB-MD",
+    "ps_name": "Madhapur",
+    "dist_name": "Cyberabad",
+    "fir_num": "234/2026",
+    "fir_reg_num": "FIR-2026-MD-234",
+    "fir_type": "NDPS",
+    "fir_date": "2026-03-10T17:45:00",
+    "acts_sections": "Sec 22(c), 25A, 29 NDPS Act; Sec 120B IPC",
+    "case_status": "Under Investigation",
+    "major_head": "NDPS CASES",
+    "minor_head": "Heroin",
+    "crime_type": "Drug Trafficking",
+    "class_classification": "Commercial Quantity",
+    "io_name": "Inspector K. Mahesh",
+    "io_rank": "Inspector",
+    "brief_facts": "Intelligence-led operation targeting a heroin distribution network operating in the IT corridor. 500g of heroin worth ₹5 Crores was seized from a rented apartment in Kondapur. CDR analysis revealed connections to a Mumbai-based supplier. Two accused arrested, one absconding.",
+    "no_of_accused": 3,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Anil Deshmukh",
+        "accusedType": "peddler",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A2",
+        "fullName": "Suresh Patil",
+        "accusedType": "financier",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A3",
+        "fullName": "Farooq Ahmed",
+        "accusedType": "supplier",
+        "status": "Absconding"
+      }
+    ],
+    "drug_details": [
+      {
+        "name": "HEROIN",
+        "quantityKg": 0.5,
+        "worth": 50000000,
+        "isCommercial": true
+      }
+    ],
+    "chargesheet_status": "Pending",
+    "disposal_details": null
+  },
+  {
+    "crime_id": "CR-RCK-2026-0067",
+    "ps_code": "PS-RCK-LB",
+    "ps_name": "LB Nagar",
+    "dist_name": "Rachakonda",
+    "fir_num": "67/2026",
+    "fir_reg_num": "FIR-2026-LB-067",
+    "fir_type": "NDPS",
+    "fir_date": "2026-01-22T11:00:00",
+    "acts_sections": "Sec 20(b)(ii)(C), 25A NDPS Act, 1985",
+    "case_status": "Under Investigation",
+    "major_head": "NDPS CASES",
+    "minor_head": "Ganja Commercial",
+    "crime_type": "Drug Trafficking",
+    "class_classification": "Commercial Quantity",
+    "io_name": "SI Lakshmi Narayana",
+    "io_rank": "Sub Inspector",
+    "brief_facts": "Acting on information from Garuda's automated conflict alert, officers intercepted a cargo truck at Hayathnagar toll plaza. 250 Kg of Ganja was found concealed among vegetable crates. The consignment was traced to Vizag through RTA vehicle records integrated with Garuda.",
+    "no_of_accused": 5,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Siva Prasad",
+        "accusedType": "transporter",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A2",
+        "fullName": "Ganesh Babu",
+        "accusedType": "supplier",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A3",
+        "fullName": "Nagaraju",
+        "accusedType": "harbourer",
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A4",
+        "fullName": "Lakshman Rao",
+        "accusedType": "organizer_kingpin",
+        "status": "Absconding"
+      },
+      {
+        "personCode": "A5",
+        "fullName": "Bhaskar",
+        "accusedType": "peddler",
+        "status": "Issued Notice"
+      }
+    ],
+    "drug_details": [
+      {
+        "name": "GANJA",
+        "quantityKg": 250.0,
+        "worth": 5000000,
+        "isCommercial": true
+      }
+    ],
+    "chargesheet_status": "Pending",
+    "disposal_details": null
+  },
+  {
+    "crime_id": "CR-HYD-2025-2341",
+    "ps_code": "PS-HYD-AB",
+    "ps_name": "Abids",
+    "dist_name": "Hyderabad",
+    "fir_num": "2341/2025",
+    "fir_reg_num": "FIR-2025-AB-2341",
+    "fir_type": "IPC",
+    "fir_date": "2025-12-18T08:30:00",
+    "acts_sections": "Sec 302, 307, 120B IPC",
+    "case_status": "Under Trial",
+    "major_head": "CRIMES AGAINST BODY",
+    "minor_head": "Murder",
+    "crime_type": "Bodily Offence",
+    "class_classification": "Heinous",
+    "io_name": "Inspector D. Srinivas",
+    "io_rank": "Inspector",
+    "brief_facts": "Accused persons attacked the victim with lethal weapons near Abids GPO over a property dispute. Victim succumbed to injuries at Osmania General Hospital. CCTV footage and CDR analysis through Garuda helped identify all accused.",
+    "no_of_accused": 2,
+    "accused_details": [
+      {
+        "personCode": "A1",
+        "fullName": "Rajendra Prasad",
+        "accusedType": null,
+        "status": "Arrested"
+      },
+      {
+        "personCode": "A2",
+        "fullName": "Naresh Goud",
+        "accusedType": null,
+        "status": "Arrested"
+      }
+    ],
+    "drug_details": [],
+    "chargesheet_status": "Filed",
+    "disposal_details": [
+      {
+        "disposalType": "Under Trial",
+        "caseStatus": "Prosecution Evidence"
+      }
+    ]
+  }
+]

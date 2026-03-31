@@ -1,0 +1,103 @@
+{
+  "criminals": [
+    {
+      "id": "PER-HYD-00142",
+      "name": "Mohammed Sharif",
+      "alias": "Sharfu",
+      "gang": "Toli Chowki Ganja Network",
+      "riskLevel": "high",
+      "associates": [
+        {"name": "Ravi Kumar", "alias": "Ravi", "relation": "Transporter", "sharedCases": 2, "status": "Arrested", "personId": "PER-HYD-00345"},
+        {"name": "Sameer Khan", "alias": "Party King", "relation": "Buyer / Distributor", "sharedCases": 1, "status": "Arrested", "personId": "PER-HYD-00234"},
+        {"name": "Lakshman Rao", "alias": "Laxman Anna", "relation": "Supplier (Upstream)", "sharedCases": 0, "status": "Absconding", "personId": "PER-RCK-00567"},
+        {"name": "Farooq Bhai", "alias": "FB", "relation": "Money Handler", "sharedCases": 1, "status": "Absconding", "personId": null},
+        {"name": "Imran Hussain", "alias": "—", "relation": "Safe House Provider", "sharedCases": 1, "status": "Arrested", "personId": null}
+      ],
+      "gangProfile": {
+        "name": "Toli Chowki Ganja Network",
+        "leader": "Lakshman Rao (Laxman Anna)",
+        "activeMembers": 12,
+        "territory": "Toli Chowki, Golconda, Banjara Hills, Mehdipatnam",
+        "primaryDrugs": ["GANJA", "MDMA"],
+        "totalCases": 23,
+        "estimatedTurnover": "₹8.5 Cr annually",
+        "activityTimeline": [
+          {"date": "Mar 2026", "event": "Mohammed Sharif arrested with 2.5 Kg MDMA at Banjara Hills"},
+          {"date": "Jan 2026", "event": "Ganja consignment (450 Kg) seized at Hayathnagar — originated from AP"},
+          {"date": "Aug 2025", "event": "Sameer Khan arrested at rave party with 200g MDMA at Jubilee Hills"},
+          {"date": "Jul 2025", "event": "Mohammed Sharif arrested with 12 Kg Ganja at Toli Chowki"},
+          {"date": "Mar 2025", "event": "Financial trail traced: ₹45L moved through hawala to AP supplier"},
+          {"date": "Nov 2024", "event": "Gang surveillance initiated after intelligence from Kerala Police"}
+        ]
+      },
+      "callHistory": [
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "9988776655", "calledName": "Sameer Khan", "duration": "4m 32s", "tower": "Banjara Hills T-3", "date": "23 Mar 2026 14:23", "type": "Outgoing"},
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "9876543210", "calledName": "Mohammed Sharif", "duration": "2m 18s", "tower": "Jubilee Hills T-1", "date": "23 Mar 2026 11:45", "type": "Incoming"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "8877665544", "calledName": "Ravi Kumar", "duration": "6m 45s", "tower": "Toli Chowki T-2", "date": "22 Mar 2026 22:10", "type": "Outgoing"},
+        {"caller": "9000112233", "callerName": "Lakshman Rao", "called": "9876543210", "calledName": "Mohammed Sharif", "duration": "1m 05s", "tower": "Hayathnagar T-1", "date": "22 Mar 2026 19:30", "type": "Incoming"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "7766554433", "calledName": "Farooq Bhai", "duration": "12m 22s", "tower": "Golconda T-1", "date": "22 Mar 2026 16:15", "type": "Outgoing"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "9000112233", "calledName": "Lakshman Rao", "duration": "8m 15s", "tower": "Banjara Hills T-1", "date": "21 Mar 2026 08:20", "type": "Outgoing"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "9199887766", "calledName": "Unknown", "duration": "0m 45s", "tower": "Toli Chowki T-2", "date": "20 Mar 2026 23:55", "type": "Outgoing"},
+        {"caller": "8800112244", "callerName": "Imran Hussain", "called": "9876543210", "calledName": "Mohammed Sharif", "duration": "3m 10s", "tower": "Mehdipatnam T-1", "date": "20 Mar 2026 20:12", "type": "Incoming"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "9988776655", "calledName": "Sameer Khan", "duration": "5m 55s", "tower": "Banjara Hills T-3", "date": "19 Mar 2026 15:40", "type": "Outgoing"},
+        {"caller": "9876543210", "callerName": "Mohammed Sharif", "called": "7766554433", "calledName": "Farooq Bhai", "duration": "9m 30s", "tower": "Golconda T-1", "date": "18 Mar 2026 21:05", "type": "Outgoing"}
+      ],
+      "contactNetwork": [
+        {"name": "Sameer Khan", "phone": "9988776655", "frequency": 47, "relationship": "Gang", "lastContact": "23 Mar 2026"},
+        {"name": "Ravi Kumar", "phone": "8877665544", "frequency": 34, "relationship": "Gang", "lastContact": "22 Mar 2026"},
+        {"name": "Farooq Bhai", "phone": "7766554433", "frequency": 28, "relationship": "Gang", "lastContact": "22 Mar 2026"},
+        {"name": "Mohammed Hussain", "phone": "9444332211", "frequency": 22, "relationship": "Family", "lastContact": "21 Mar 2026"},
+        {"name": "Lakshman Rao", "phone": "9000112233", "frequency": 18, "relationship": "Gang", "lastContact": "22 Mar 2026"},
+        {"name": "Imran Hussain", "phone": "8800112244", "frequency": 15, "relationship": "Gang", "lastContact": "20 Mar 2026"},
+        {"name": "Fatima Begum", "phone": "9333221100", "frequency": 12, "relationship": "Family", "lastContact": "23 Mar 2026"},
+        {"name": "Unknown (+91-919..)", "phone": "9199887766", "frequency": 8, "relationship": "Unknown", "lastContact": "20 Mar 2026"},
+        {"name": "Advocate Rehman", "phone": "9555443322", "frequency": 5, "relationship": "Legal", "lastContact": "19 Mar 2026"}
+      ]
+    },
+    {
+      "id": "PER-HYD-00234",
+      "name": "Sameer Khan",
+      "alias": "Party King",
+      "gang": "Jubilee Hills Party Circuit",
+      "riskLevel": "critical",
+      "associates": [
+        {"name": "Mohammed Sharif", "alias": "Sharfu", "relation": "Supplier", "sharedCases": 1, "status": "Arrested", "personId": "PER-HYD-00142"},
+        {"name": "Anil Deshmukh", "alias": "Anil Bhai", "relation": "Inter-state Link", "sharedCases": 0, "status": "Arrested", "personId": "PER-CYB-00456"},
+        {"name": "DJ Vikram", "alias": "Vikki", "relation": "Distribution at Events", "sharedCases": 2, "status": "Absconding", "personId": null},
+        {"name": "Priya Reddy", "alias": "—", "relation": "Girlfriend / Carrier", "sharedCases": 1, "status": "Issued Notice", "personId": null},
+        {"name": "Kiran Naidu", "alias": "KN", "relation": "Financier", "sharedCases": 1, "status": "Arrested", "personId": null}
+      ],
+      "gangProfile": {
+        "name": "Jubilee Hills Party Circuit",
+        "leader": "Sameer Khan (Party King)",
+        "activeMembers": 8,
+        "territory": "Jubilee Hills, Banjara Hills, Film Nagar, Gachibowli",
+        "primaryDrugs": ["MDMA", "COCAINE", "LSD"],
+        "totalCases": 15,
+        "estimatedTurnover": "₹15 Cr annually",
+        "activityTimeline": [
+          {"date": "Feb 2026", "event": "Sameer Khan arrested with 500g Cocaine at Banjara Hills farmhouse party"},
+          {"date": "Nov 2025", "event": "3 consumers arrested at Film Nagar rave; trail leads to Sameer Khan"},
+          {"date": "Aug 2025", "event": "International courier intercepted at RGI Airport — 2 Kg MDMA, traced to Party Circuit"},
+          {"date": "Jun 2024", "event": "DJ Vikram identified as key distributor at Jubilee Hills clubs"},
+          {"date": "Dec 2023", "event": "First FIR against Sameer Khan at Jubilee Hills PS"}
+        ]
+      },
+      "callHistory": [
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "9876543210", "calledName": "Mohammed Sharif", "duration": "2m 18s", "tower": "Jubilee Hills T-1", "date": "23 Mar 2026 11:45", "type": "Outgoing"},
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "9112233445", "calledName": "Anil Deshmukh", "duration": "7m 44s", "tower": "Banjara Hills T-2", "date": "22 Mar 2026 20:30", "type": "Outgoing"},
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "8866554433", "calledName": "DJ Vikram", "duration": "11m 22s", "tower": "Jubilee Hills T-3", "date": "22 Mar 2026 18:15", "type": "Outgoing"},
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "7755443322", "calledName": "Priya Reddy", "duration": "15m 05s", "tower": "Film Nagar T-1", "date": "21 Mar 2026 22:40", "type": "Outgoing"},
+        {"caller": "9988776655", "callerName": "Sameer Khan", "called": "8899001122", "calledName": "Kiran Naidu", "duration": "4m 30s", "tower": "Gachibowli T-2", "date": "21 Mar 2026 14:20", "type": "Outgoing"}
+      ],
+      "contactNetwork": [
+        {"name": "DJ Vikram", "phone": "8866554433", "frequency": 62, "relationship": "Gang", "lastContact": "22 Mar 2026"},
+        {"name": "Priya Reddy", "phone": "7755443322", "frequency": 55, "relationship": "Personal", "lastContact": "21 Mar 2026"},
+        {"name": "Mohammed Sharif", "phone": "9876543210", "frequency": 47, "relationship": "Gang", "lastContact": "23 Mar 2026"},
+        {"name": "Kiran Naidu", "phone": "8899001122", "frequency": 31, "relationship": "Financial", "lastContact": "21 Mar 2026"},
+        {"name": "Anil Deshmukh", "phone": "9112233445", "frequency": 24, "relationship": "Gang", "lastContact": "22 Mar 2026"},
+        {"name": "Irfan Khan (Father)", "phone": "9444556677", "frequency": 15, "relationship": "Family", "lastContact": "20 Mar 2026"}
+      ]
+    }
+  ]
+}

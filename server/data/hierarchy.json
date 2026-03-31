@@ -1,0 +1,10 @@
+[
+  {"ps_code": "PS-HYD-BH", "ps_name": "Banjara Hills", "circle_name": "West Zone Circle", "sdpo_name": "SDPO West", "dist_code": "HYD", "dist_name": "Hyderabad", "range_name": "Hyderabad Range", "zone_name": "South Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-HYD-JH", "ps_name": "Jubilee Hills", "circle_name": "West Zone Circle", "sdpo_name": "SDPO West", "dist_code": "HYD", "dist_name": "Hyderabad", "range_name": "Hyderabad Range", "zone_name": "South Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-HYD-MK", "ps_name": "Musheerabad", "circle_name": "Central Zone Circle", "sdpo_name": "SDPO Central", "dist_code": "HYD", "dist_name": "Hyderabad", "range_name": "Hyderabad Range", "zone_name": "South Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-HYD-AB", "ps_name": "Abids", "circle_name": "Central Zone Circle", "sdpo_name": "SDPO Central", "dist_code": "HYD", "dist_name": "Hyderabad", "range_name": "Hyderabad Range", "zone_name": "South Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-CYB-MD", "ps_name": "Madhapur", "circle_name": "IT Corridor Circle", "sdpo_name": "SDPO Madhapur", "dist_code": "CYB", "dist_name": "Cyberabad", "range_name": "Cyberabad Range", "zone_name": "West Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-RCK-LB", "ps_name": "LB Nagar", "circle_name": "LB Nagar Circle", "sdpo_name": "SDPO LB Nagar", "dist_code": "RCK", "dist_name": "Rachakonda", "range_name": "Rachakonda Range", "zone_name": "East Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-HYD-CH", "ps_name": "Charminar", "circle_name": "South Zone Circle", "sdpo_name": "SDPO South", "dist_code": "HYD", "dist_name": "Hyderabad", "range_name": "Hyderabad Range", "zone_name": "South Zone", "adg_name": "ADG (L&O)"},
+  {"ps_code": "PS-CYB-GC", "ps_name": "Gachibowli", "circle_name": "IT Corridor Circle", "sdpo_name": "SDPO Gachibowli", "dist_code": "CYB", "dist_name": "Cyberabad", "range_name": "Cyberabad Range", "zone_name": "West Zone", "adg_name": "ADG (L&O)"}
+]
